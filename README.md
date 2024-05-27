@@ -1,70 +1,74 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# CARTIGO
 
-## Available Scripts
+CARTIGO is a feature-rich e-commerce website built using modern frontend technologies. The site offers a seamless shopping experience with intuitive navigation, dynamic product listings, and efficient state management.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+1. **Responsive Design**: The website layout is designed for consistency and compatibility across various screen sizes. A JavaScript-based hamburger menu ensures intuitive navigation on medium and small screens.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. **Dynamic Product Integration**: Products are dynamically integrated into the website using React and API calls, ensuring that the product listings are always up-to-date. Users can effortlessly add or remove products from their cart, with the total amount updating dynamically as changes are made.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3. **Product Filtering**: The site includes filtering options based on categories, allowing users to streamline their shopping experience and easily find the products they are looking for.
 
-### `npm test`
+4. **Single-Page Application**: With routing implemented via React Router, CARTIGO transforms into a single-page web application. This ensures seamless navigation between pages and an enhanced user experience without the need for full page reloads.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+5. **State Management with Redux**: Redux is used for efficient state management, ensuring smooth data flow and a consistent state across the application. This enhances the overall performance and user experience.
 
-### `npm run build`
+## Technologies Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **HTML**: For the basic structure of the website.
+- **CSS**: For styling the website to ensure a visually appealing design.
+- **JavaScript**: For adding interactivity and functionality.
+- **React.js**: For building dynamic and responsive user interfaces.
+- **Redux**: For state management to handle the application's state efficiently.
+- **React Router**: For implementing routing to create a single-page application experience.
+- **JSON Dummy API**: For fetching dynamic product data used in the application.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To get started with the project, follow these steps:
 
-### `npm run eject`
+1. **Clone the repository**:
+   ```sh
+   git clone https://github.com/yourusername/cartigo.git
+   ```
+2. **Navigate to the project directory**:
+   ```sh
+   cd cartigo
+   ```
+3. **Install dependencies**:
+   ```sh
+   npm install
+   ```
+4. **Start the development server**:
+   ```sh
+   npm start
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Screenshots
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+HOME PAGE-
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![App Screenshot](https://github.com/annanyakundu/Cartigo/assets/104723748/1202274f-ac61-4e2b-af8b-5773b08b058e)
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+SHOP PAGE-
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![App Screenshot](https://github.com/annanyakundu/Cartigo/assets/104723748/dcbcc495-374d-45ab-a62b-cf15eb03e281)
 
-### Code Splitting
+CART PAGE-
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![App Screenshot](https://github.com/annanyakundu/Cartigo/assets/104723748/cb605e71-4bfc-4ca4-9cdc-9e91e5dcfdd9)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Contributing
 
-### Making a Progressive Web App
+We welcome contributions to enhance CARTIGO. If you would like to contribute, please fork the repository and use a feature branch. Pull requests are warmly welcome.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
