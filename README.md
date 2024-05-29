@@ -31,11 +31,11 @@ To get started with the project, follow these steps:
 
 1. **Clone the repository**:
    ```sh
-   git clone https://github.com/yourusername/cartigo.git
+   git clone https://github.com/annanyakundu/Cartigo.git
    ```
 2. **Navigate to the project directory**:
    ```sh
-   cd cartigo
+   cd Cartigo
    ```
 3. **Install dependencies**:
    ```sh
